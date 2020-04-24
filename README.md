@@ -7,6 +7,12 @@
 * [Online Editor - Theia](http://${ADDR}:32400)
 * [CI/CD - Jenkins](http://${ADDR}:32100)
 
+## Aufgabe 
+
+Spielen Sie das Beispiel [Aufbau einer Continous Integration / Delivery Pipeline mit Docker/Kubernetes](https://github.com/mc-b/devday#aufbau-einer-continous-integration--delivery-pipeline-mit-dockerkubernetes) durch.
+
+Die Services sind bereits Installiert und statt `kubectl` ist die nachfolgende Konfiguration zuerst auszuführen.
+
 ## Konfiguration 
 
 ### Gogs
