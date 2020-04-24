@@ -16,7 +16,6 @@ metadata:
   labels:
     app: theia-next
   name: theia-next
-  namespace: theia
 spec:
   selector:
     matchLabels:
