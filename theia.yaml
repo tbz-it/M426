@@ -27,7 +27,7 @@ spec:
         app: theia-next
     spec:
       containers:
-      - image: theiaide/theia-cpp
+      - image: theiaide/theia-full
         imagePullPolicy: IfNotPresent
         name: theia-next
         ports:
