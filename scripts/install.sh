@@ -2,6 +2,10 @@
 #!/bin/bash
 # 
 
+# Umgebungsvariablen wie IP VM
+export ADDR=$(ifconfig wg0 | grep inet | cut '-d ' -f 10)
+[ "${ADDR}" == "" ] && { export ADDR=$(hostname -I | cut -d ' ' -f 1); }
+
 # intro.html - von k8swebui.sh erstellt - ueberschreiben
 cat <<%EOF% | sudo tee /var/www/html/intro.html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
