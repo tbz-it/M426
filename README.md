@@ -4,7 +4,7 @@
 
 * [Planung - Kanboard](http://${ADDR}:32200)
 * [Versionverwaltung - Gogs](http://${ADDR}:32300)
-* [Online Editor - Theia]()
+* [Online Editor - Theia](http://${ADDR}:32400)
 * [CI/CD - Jenkins](http://${ADDR}:32100)
 
 ## Konfiguration 
