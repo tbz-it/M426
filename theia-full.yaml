@@ -32,3 +32,13 @@ spec:
         name: theia-next
         ports:
         - containerPort: 3000
+        # Volumes im Container - wie maven
+        volumeMounts:
+        - mountPath: "/home/project"
+          subPath: src           
+          name: "theia-storage"
+      # Volumes in Host
+      volumes:
+      - name: theia-storage
+        persistentVolumeClaim:
+         claimName: data-claim          
