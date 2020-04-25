@@ -15,9 +15,28 @@ Die Services sind bereits Installiert und statt `kubectl` ist die nachfolgende K
 
 ## Konfiguration 
 
-### Gogs
+### Planung - Kanboard
+
+![](https://kanboard.org/assets/img/board.png)
+
+- - -
+
+Kanboard ist eine Open-Source Kanban-Projektmanagement-Software.
+
+Es erlaubt Aufgaben in Projekten und Sprints (Swimlanes) zu managen. Die Columns können frei angepasst werden.
+
+Web Oberfläche mittels [http://${ADDR}:32200](http://${ADDR}:32200) anwählen. Username/Password ist `admin`.
+
+**Links**
+
+* [Website](https://kanboard.org/)
+* [Docker Image](https://hub.docker.com/r/kanboard/kanboard/)
+
+### Versionsverwaltung - Gogs
 
 ![](https://gogs.io/img/screenshots/4.png)
+
+- - -
 
 Ein einfacher Git Server mit Weboberfläche. Erinnert stark an github.
 
@@ -36,24 +55,21 @@ Einstellungen, wenn es sich um einen nicht frei zugänglichen Server handelt:
 
 Ansonsten erhält der erste User wo sich registriert, Adminstrator Rechte.
 
-### Kanboard
+### Online Editor - Theia
 
-![](https://kanboard.org/assets/img/board.png)
+![](https://theia-ide.org/static/theia-screenshot-5da315784b70a935f8196407284cbe1e.jpg)
 
-Kanboard ist eine Open-Source Kanban-Projektmanagement-Software.
+- - -
 
-Es erlaubt Aufgaben in Projekten und Sprints (Swimlanes) zu managen. Die Columns können frei angepasst werden.
+[Eclipse Theia](https://theia-ide.org/) ist eine erweiterbare Plattform zur Entwicklung mehrsprachiger Cloud- und Desktop-IDEs mit modernsten Webtechnologien.
 
-Web Oberfläche mittels [http://${ADDR}:32200](http://${ADDR}:32200) anwählen. Username/Password ist `admin`.
+Es ist die Full Version, mit Unterstützung für die meisten Programmiersprachen, installiert. Diese Version benötigt keine Konfiguration.
 
-**Links**
-
-* [Website](https://kanboard.org/)
-* [Docker Image](https://hub.docker.com/r/kanboard/kanboard/)
-
-### Jenkins mit Blueocean
+### CI/CD - Jenkins mit Blueocean
 
 ![](https://jenkins.io/images/blueocean/blueocean-successful-pipeline.png)
+
+- - -
 
 Jenkins ist ein Continuous Integration- und Delivery-Server. 
 
